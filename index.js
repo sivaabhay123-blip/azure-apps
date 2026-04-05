@@ -4,5 +4,5 @@ const port = process.env.PORT || 3000;
 
 http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello from Azure 🚀');
+  res.end('MY SITE IS WORKING...');
 }).listen(port);

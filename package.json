@@ -1,8 +1,12 @@
 {
-  "name": "azure-app",
+  "name": "abhay-webapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Node.js web app for Azure",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
